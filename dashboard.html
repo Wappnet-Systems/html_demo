@@ -1,0 +1,879 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>P2P</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"> -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/price_rangs.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/choices.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header">
+                <div class="header-bottom">
+                    <div class="container-fluid">
+                        <div class="row align-items-center no-gutters">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2 col-md-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-8">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Investment</a></li>
+                                            <li><a href="#">Selling</a></li>
+                                            <!-- <li><a href="#">Page <i class="fa fa-chevron-down fa-icon"></i> </a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Element</a></li>
+                                                    <li><a href="#">Listing details</a></li>
+                                                </ul>
+                                            </li> -->
+                                            <li><a href="#">Contact</a></li>
+                                            <li class="post-property"><a href="#"> Post Property</a></li>
+                                            <li class="login">
+                                                <a href="#">
+                                                    Login / Register
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-search">
+                <form id="" class="" method="post">
+                    <div id="advanced-mobile" class="advanced-mobile">
+                        <div id="headingTwo">
+                            <a href="javascript:void(0);" class="advance-btn-mobile" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <span class="fa-stack fa-sm">
+                                    <img src="assets/img/advance-plus.svg">
+                                  </span>
+                            </a>
+                        </div>
+                    </div>
+                    <input type="text" class="main-input-mobile main-name" name="Enter keyword.." value="" placeholder="Enter keyword.." />
+                    <button type="button" id="main-submit-mobile"><i class="fa fa-search fa-search-icon"></i></button>
+                </form>
+                <div id="collapseTwo" class="advanced-mobile-subdetail collapse" aria-labelledby="headingTwo" data-parent="#advanced-mobile">
+                    <div class="advanced-body">
+                        <form action="#" class="advanced-mobile-filter-box">
+                            <div class="row">
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">status</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select1">
+                                                <option value="">All status</option>
+                                                <option value="">For Rent</option>
+                                                <option value="">For Sale</option>
+                                                <option value="">For Buy</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">type</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select2">
+                                                <option value="">All type</option>
+                                                <option value="">apartment</option>
+                                                <option value="">house</option>
+                                                <option value="">villa</option>
+                                                <option value="">office</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">BEDROOMS</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select3">
+                                            <option value="">Bedrooms</option>
+                                            <option value="">01</option>
+                                                <option value="">02</option>
+                                                <option value="">03</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">bathrooms</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select4">
+                                            <option value="">bathrooms</option>
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">city</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select5">
+                                            <option value="">all cities</option>
+                                            <option value="">Ahmedabad</option>
+                                            <option value="">Pune</option>
+                                            <option value="">Rajsthan</option>
+                                            <option value="">new Delhi</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-30">
+                                    <div class="select-form field-box">
+                                        <label class="filed-label" for="keyword">Label</label>
+                                        <div class="select-itms">
+                                            <select name="select" id="select6">
+                                            <option value="">all Labels</option>
+                                            <option value="">Discount</option>
+                                            <option value="">50% Off</option>
+                                            <option value="">Exclusive</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-30">
+                                    <div class="input-form field-box">
+                                        <label class="filed-label" for="keyword">Property ID</label>
+                                        <input type="text" placeholder="Property ID">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-search-form fsf-mobile pl-0 mw-100">
+                                        <a href="#">Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="search-property-list-header header-sticky">
+                <!-- <div class="contact-agent">
+                    <a href="#"> Post Property</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Dasboard blocks Start -->
+        <div class="dasboard-blocks section-padding80">
+            <div class="container">
+                <div class="dashboard-title">
+                    <h3>Hey Abc, Welcom to your dashboard</h3>
+                    <p>
+                        I want to receive notifications on WhatsApp
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="round"><b style="font-weight: normal;">on</b> off</span>
+                    </label>
+                    </p>
+                </div>
+                <div class="dasboard-company-profile">
+                    <div class="properties-datalist">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="dasboard-data mb-20">
+                                    <div class="dasboard-block text-left">
+                                        <div class="dasboard-block--left">
+                                            <a href="#" class="dasboard-profile-img">
+                                                <img src="assets/img/icon/add-image.svg">
+                                            </a>
+                                            <div class="dasboard-action">
+                                                <a href="#!"><i class="fa fa-plus mr-2"></i>add photos</a>
+                                            </div>
+                                        </div>
+                                        <div class="dasboard-block-content-right">
+                                            <div class="dasboard-cname">property id: 5534343 </div>
+                                            <div class="dasboard-block-right-info">
+                                                <ul class="dasboard-block-description mt-10">
+                                                    <li>
+                                                        <div class="dasboard-infolabel">Address</div>
+                                                        <div class="d-flex position-relative">
+                                                            <p class="collapse p-operating dp-info" id="operating" aria-expanded="false">
+                                                                Multiplex b/h, SG Highway, Thaltej, Ahmedabad
+                                                            </p>
+                                                            <a role="button" class="description-more collapsed" data-toggle="collapse" href="#operating" aria-expanded="false" aria-controls="operating"></a>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dasboard-infolabel">Looking to</div>
+                                                        <div class="dp-info">sell</div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dasboard-infolabel">listing status</div>
+                                                        <div class="dp-info">under screening</div>
+                                                    </li>
+                                                </ul>
+                                                <div class="contact-enquire mt-30">
+                                                    <a href="#" class="contact-builder-btn ceq-btn">Edit listing</a>
+                                                    <a href="#" class="enquire-btn ceq-btn">deactive</a>
+                                                    <a href="#" class="sharefeedback-link ceq-btn">preview listing</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="dasboard-data mb-20">
+                                    <div class="dasboard-block text-left">
+                                        <div class="dasboard-block--left">
+                                            <a href="#" class="dasboard-profile-img">
+                                                <img src="assets/img/icon/add-image.svg">
+                                            </a>
+                                            <div class="dasboard-action">
+                                                <a href="#!"><i class="fa fa-plus mr-2"></i>add photos</a>
+                                            </div>
+                                        </div>
+                                        <div class="dasboard-block-content-right">
+                                            <div class="dasboard-cname">property id: 5534343 </div>
+                                            <div class="dasboard-block-right-info">
+                                                <ul class="dasboard-block-description mt-10">
+                                                    <li>
+                                                        <div class="dasboard-infolabel">Address</div>
+                                                        <div class="d-flex position-relative">
+                                                            <p class="collapse p-operating dp-info" id="par" aria-expanded="false">
+                                                                Multiplex b/h, SG Highway, Thaltej, Ahmedabad
+                                                            </p>
+                                                            <a role="button" class="description-more collapsed" data-toggle="collapse" href="#par" aria-expanded="false" aria-controls="par"></a>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dasboard-infolabel">Looking to</div>
+                                                        <div class="dp-info">sell</div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dasboard-infolabel">listing status</div>
+                                                        <div class="dp-info">under screening</div>
+                                                    </li>
+                                                </ul>
+                                                <div class="contact-enquire mt-30">
+                                                    <a href="#" class="contact-builder-btn ceq-btn">Edit listing</a>
+                                                    <a href="#" class="enquire-btn ceq-btn">deactive</a>
+                                                    <a href="#" class="sharefeedback-link ceq-btn">preview listing</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-profile-comletion">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="home-profile-wrapper">
+                                <h3>Your home worth</h3>
+                                <ul>
+                                    <li>2 BHK</li>
+                                    <li>1240 sqft</li>
+                                    <li>Builder Floor</li>
+                                    <li>Pool Facing</li>
+                                </ul>
+                                <a href="#" class="add-more-btn">add more details</a>
+                                <div class="row mt-5">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <div class="rent-price-cover">
+                                            <img src="assets/img/icon/worth-home-icon.svg" width="50px" alt="">
+                                            <h4>worth of your home</h4>
+                                            <div class="accuracy-price">
+                                                <span class="addon-price"><span class="rupees">₹</span> 80.50 Lac</span>
+                                                <p>80% accuracy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="rent-price-cover">
+                                            <img src="assets/img/icon/rent-home-icon.svg" width="50px" alt="">
+                                            <h4>estimated rent per month</h4>
+                                            <div class="accuracy-price">
+                                                <span class="addon-price"><span class="rupees">₹</span> 21,200</span>
+                                                <p>80% accuracy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="home-profile-wrapper">
+                                <h3>Price comparision</h3>
+                                <div class="price-comparision">
+                                    <div class="mb-4">
+                                        <p class="progress-title">Average locality price for project</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;background-color: #F6386C">
+                                                <span class="progress-type"><span class="addon-price"><span class="rupees">₹</span> 2.2 Cr</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <p class="progress-title">Average listed price for flats in locality</p>
+                                        <div class="progress">
+                                            <div class="progress-bar " role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%;background-color: #2069E8">
+                                                <span class="progress-type"><span class="addon-price"><span class="rupees">₹</span> 2.1 Cr</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <p class="progress-title">Average listed price for 2 BHK in city</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 50%;background-color: #48b357">
+                                                <span class="progress-type"><span class="addon-price"><span class="rupees">₹</span> 3.6 Cr</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="post-property-btn"> Post Property</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 mb-4">
+                            <div class="home-profile-wrapper">
+                                <h3>Demand in Science city road</h3>
+                                <div class="row bd0">
+                                    <div class="col-6">
+                                        <div class="demand-cover">
+                                            <img src="assets/img/active.svg" width="50px" alt="">
+                                            <h4>Active Buyer</h4>
+                                            <div class="active-buy">
+                                                <span>1800</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="demand-cover">
+                                            <img src="assets/img/rent.svg" width="50px" alt="">
+                                            <h4>Looking to Rent</h4>
+                                            <div class="active-buy">
+                                                <span>2120</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="change-price-cover">
+                                    <h4>Change in price</h4>
+                                    <div class="row border-divide">
+                                        <div class="col-sm-6">
+                                            <div class="change-price-ratio">
+                                                <h2 class="up"><img src="assets/img/icon/up-arrow-icon.svg" alt=""> 13.9%</h2>
+                                                <p>Expected in the next 6 months</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="change-price-ratio">
+                                                <h2 class="down"><img src="assets/img/icon/down-arrow-icon.svg" alt="">-10.9%</h2>
+                                                <p>Droped in the last 6 months</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-compitition mt-50 mb-50 pt-50 pb-50">
+                <div class="container">
+                    <div class="section-tittle color-white mb-30">
+                        <h2>My compitition</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th class="text-left"></th>
+                                        <th>view</th>
+                                        <th>contacts</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">my property</td>
+                                        <td>23</td>
+                                        <td>43</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">best property</td>
+                                        <td>12</td>
+                                        <td>13</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Average property</td>
+                                        <td>14</td>
+                                        <td>32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="top-property">
+                                <h3>top properties</h3>
+                                <ul>
+                                    <li>
+                                        <div class="top-property-list">
+                                            <h4>3 BHK apartment <span>1342 sqft</span></h4>
+                                            <h6>Luxury Villa In Alice, New York</h6>
+                                            <p>460 West 46th Street, Apt 3</p>
+                                        </div>
+                                        <div class="addon-price"><span class="rupees">₹</span> 4300</div>
+                                        <a href="#" class="contact-for-link">contact agent</a>
+                                    </li>
+                                    <li>
+                                        <div class="top-property-list">
+                                            <h4>3 BHK apartment <span>1342 sqft</span></h4>
+                                            <h6>Luxury Villa In Alice, New York</h6>
+                                            <p>460 West 46th Street, Apt 3</p>
+                                        </div>
+                                        <div class="addon-price"><span class="rupees">₹</span> 4300</div>
+                                        <a href="#" class="contact-for-link">contact agent</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="graph-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="supply_demand"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="performance"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dasboard End -->
+
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                    </div>
+                                    <ul class="footer-contact-info">
+                                        <li>58 Howard Street #2 San Francisco</li>
+                                        <li><a href="#">contact@abcd.com</a></li>
+                                        <li><a href="#">(+68) 1221 09876</a></li>
+                                        <li><a href="#">www.abcd.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Popular Searches</h4>
+                                    <ul>
+                                        <li><a href="#">Apartment for Rent</a></li>
+                                        <li><a href="#">Apartment Low to hide</a></li>
+                                        <li><a href="#">Offices for Buy</a></li>
+                                        <li><a href="#">Offices for Rent</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Quick links</h4>
+                                    <ul>
+                                        <li><a href="#">Terms of Use</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Contact Support</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Sign Up for Our Newsletter</h4>
+                                    <p>Lorem ipsum dolor sit amet, consecte tur cing elit. Suspe ndisse suscipit sagittis</p>
+                                    <form action="#" class="subscribe-search-box">
+                                        <div class="input-form">
+                                            <input type="text" placeholder="Your email">
+                                        </div>
+                                        <div class="search-form">
+                                            <a href="#">Subscribe</a>
+                                        </div>
+                                    </form>
+                                    <ul class="app-wrapper">
+                                        <li class="app-log">
+                                            <a href="#"><img src="assets/img/gallery/app-logo.png" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="assets/img/gallery/app-logo2.png" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-md-8">
+                            <div class="footer-copy-right">
+                                <p>
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script> All rights reserved by<a href="#" target="_blank">p2p</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4">
+                            <!-- Footer Social -->
+                            <div class="footer-social f-right">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+
+    <!-- JS here -->
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/price-range.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/choices.min.js"></script>
+
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./assets/js/vendor/highcharts.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/main.js"></script>
+    <script>
+        $(() => {
+            Highcharts.SVGRenderer.prototype.symbols.dashedLine = (x, y, w) => {
+                const returnArray = [];
+                const startPoint = x - 5 * w;
+                const endPoint = x + 5 * w;
+                const dashWidth = w;
+                const gapWidth = 0.5 * w;
+                const yValWithOffset = y + w / 2;
+
+                for (
+                    currentPoint <= endPoint; currentPoint += dashWidth + gapWidth;
+                ) {
+                    returnArray.push(
+                        'M',
+                        currentPoint,
+                        yValWithOffset,
+                        'L',
+                        currentPoint + dashWidth,
+                        yValWithOffset
+                    );
+                }
+                returnArray.push('z');
+                return returnArray;
+            };
+
+            if (Highcharts.VMLRenderer) {
+                Highcharts.VMLRenderer.prototype.symbols.dashedLine = Highcharts.SVGRenderer.prototype.symbols.dashedLine;
+            }
+
+            $('#supply_demand').highcharts({
+                title: {
+                    text: 'Supply & Demand'
+                },
+
+                chart: {
+                    height: null
+                },
+
+                legend: {
+                    y: -40
+                },
+
+                xAxis: {
+                    categories: [
+                        'Jan 21',
+                        'Feb 21',
+                        'Mar 21',
+                        'Apr 21',
+                        'May 21',
+                        'Jun 21'
+                    ]
+                },
+
+                series: [{
+                    name: 'Supply',
+                    data: [
+                        1.14,
+                        15.92,
+                        123.57,
+                        266.64,
+                        389.23,
+                        284.05
+                    ],
+                    marker: {
+                        symbol: '',
+                        lineColor: null,
+                        lineWidth: 3
+                    },
+                    dataLabels: {
+                        allowOverlap: false,
+                        zIndex: 3,
+                        enabled: false,
+                        padding: 5,
+                        format: '{y:0.2f}',
+                        style: {
+                            color: '#D1A570'
+                        }
+                    }
+                }, {
+                    name: 'Demand',
+                    data: [
+                        305.234,
+                        387.124,
+                        578.573,
+                        768.474,
+                        789.234,
+                        844.05
+                    ],
+                    marker: {
+                        symbol: '',
+                        lineColor: null,
+                        lineWidth: 3
+                    },
+                    dataLabels: {
+                        allowOverlap: false,
+                        zIndex: 3,
+                        enabled: false,
+                        padding: 5,
+                        format: '{y:0.3f}',
+                        style: {
+                            color: '#222122'
+                        }
+                    }
+                }],
+
+                credits: {
+                    enabled: false
+                }
+            });
+        });
+    </script>
+    <script>
+        $(() => {
+            Highcharts.SVGRenderer.prototype.symbols.dashedLine = (x, y, w) => {
+                const returnArray = [];
+                const startPoint = x - 5 * w;
+                const endPoint = x + 5 * w;
+                const dashWidth = w;
+                const gapWidth = 0.5 * w;
+                const yValWithOffset = y + w / 2;
+
+                for (
+                    currentPoint <= endPoint; currentPoint += dashWidth + gapWidth;
+                ) {
+                    returnArray.push(
+                        'M',
+                        currentPoint,
+                        yValWithOffset,
+                        'L',
+                        currentPoint + dashWidth,
+                        yValWithOffset
+                    );
+                }
+                returnArray.push('z');
+                return returnArray;
+            };
+
+            if (Highcharts.VMLRenderer) {
+                Highcharts.VMLRenderer.prototype.symbols.dashedLine = Highcharts.SVGRenderer.prototype.symbols.dashedLine;
+            }
+
+            $('#performance').highcharts({
+                title: {
+                    text: 'Performance'
+                },
+
+                chart: {
+                    height: null
+                },
+
+                legend: {
+                    y: -40
+                },
+
+                xAxis: {
+                    categories: [
+                        'Jan 21',
+                        'Feb 21',
+                        'Mar 21',
+                        'Apr 21',
+                        'May 21',
+                        'Jun 21'
+                    ]
+                },
+
+                series: [{
+                    name: '',
+                    data: [
+                        1.14,
+                        15.92,
+                        123.57,
+                        266.64,
+                        389.23,
+                        284.05
+                    ],
+                    marker: {
+                        symbol: '',
+                        lineColor: null,
+                        lineWidth: 3
+                    },
+                    dataLabels: {
+                        allowOverlap: false,
+                        zIndex: 3,
+                        enabled: false,
+                        padding: 5,
+                        format: '{y:0.2f}',
+                        style: {
+                            color: '#D1A570'
+                        }
+                    }
+                }, {
+                    name: '',
+                    data: [
+                        305.234,
+                        387.124,
+                        578.573,
+                        768.474,
+                        789.234,
+                        844.05
+                    ],
+                    marker: {
+                        symbol: '',
+                        lineColor: null,
+                        lineWidth: 3
+                    },
+                    dataLabels: {
+                        allowOverlap: false,
+                        zIndex: 3,
+                        enabled: false,
+                        padding: 5,
+                        format: '{y:0.3f}',
+                        style: {
+                            color: '#222122'
+                        }
+                    }
+                }],
+
+                credits: {
+                    enabled: false
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
